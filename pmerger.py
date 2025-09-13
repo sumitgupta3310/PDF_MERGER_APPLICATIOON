@@ -1,7 +1,7 @@
 import os
 from PyPDF2 import PdfMerger
 
-user_input = input("Enter file pth: ")
+user_input = input("Enter file path: ")
 print("Merging PDF Files")
 directory = user_input
 merger = PdfMerger()
